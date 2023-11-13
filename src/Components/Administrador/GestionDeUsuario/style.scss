@@ -1,0 +1,30 @@
+.containeruser {
+    background-image: url('../../../Images/fondo2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    // Ajustar en celulares el fondo
+    @media (max-width: 768px) {
+        background-position: right;
+    }
+
+    .Cancelar {
+        background-color: transparent;
+        border: 2px solid rgb(0, 118, 193);
+        border-radius: 10px;
+        font-weight: 700;
+        color: rgb(0, 118, 193);
+        width: 100%;
+
+        &:hover {
+            background-image: linear-gradient(rgb(0, 118, 193), rgb(60, 181, 221));
+            color: #fff !important;
+            cursor: pointer;
+        }
+    }
+}

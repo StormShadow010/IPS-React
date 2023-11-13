@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap');
+
+.container {
+    background-image: url('../../Images/fondo2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.styleh2 {
+    font-size: 65px;
+    text-align: center;
+    color: #000;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
